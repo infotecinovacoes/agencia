@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100&display=swap');
+
+/* font-family: 'Cinzel', serif; */
+/* font-family: 'Exo', sans-serif; */
+
+@media (max-width: 767px) {
+    /* politica */
+
+    .pol-titulo h1 {
+        background-color: #181719;
+        color: #f2f2f2;
+        letter-spacing: 1px;
+        padding: 50px 20px;
+        font-family: 'Cinzel', serif;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .pol1 {
+        display: flex;
+        text-align: left;
+        background-color: #f2f2f2;
+    }
+
+    .pol1 p {
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 21px;
+        font-weight: bold;
+        color: black;
+        font-family: 'Exo', sans-serif;
+        padding: 50px 20px;
+        width: 100%;
+    }
+
+    .pol2,
+    .pol3,
+    .pol4,
+    .pol5,
+    .pol6 {
+        background-color: #181719;
+    }
+
+    .pol2 h2,
+    .pol3 h2,
+    .pol4 h2,
+    .pol5 h2,
+    .pol6 h2 {
+        padding: 10px 0px;
+        font-family: 'Cinzel', serif;
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-size: 15px;
+        text-align: left;
+        margin-left: 15px;
+        color: #f2f2f2;
+    }
+
+    .pol2 p,
+    .pol3 p,
+    .pol4 p,
+    .pol5 p,
+    .pol6 p {
+        background-color: #f2f2f2;
+        color: black;
+        text-align: left;
+        padding: 30px 20px;
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 21px;
+        font-weight: bold;
+        font-family: 'Exo', sans-serif;
+    }
+
+    .pol7 {
+        display: flex;
+        text-align: left;
+        background-color: #181719;
+    }
+
+    .pol7 p {
+        font-size: 16px;
+        letter-spacing: 1px;
+        line-height: 21px;
+        font-weight: bold;
+        color: #f2f2f2;
+        font-family: 'Exo', sans-serif;
+        padding: 50px 20px;
+    }
+
+    /* politica */
+}
+
+@media (min-width: 768px) {
+
+    /* politica */
+
+    .pol-titulo h1 {
+        background-color: #181719;
+        color: #f2f2f2;
+        letter-spacing: 1px;
+        padding: 100px 20px;
+        font-family: 'Cinzel', serif;
+        font-weight: normal;
+        letter-spacing: 1px;
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .pol1 {
+        display: flex;
+        text-align: left;
+        background-color: #f2f2f2;
+    }
+
+    .pol1 p {
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 25px;
+        font-family: 'Exo', sans-serif;
+        font-weight: bold;
+        letter-spacing: 1px;
+        padding: 70px 60px;
+        width: 100%;
+        color: black;
+    }
+
+    .pol2,
+    .pol3,
+    .pol4,
+    .pol5,
+    .pol6 {
+        background-color: #181719;
+    }
+
+    .pol2 h2,
+    .pol3 h2,
+    .pol4 h2,
+    .pol5 h2,
+    .pol6 h2 {
+        padding: 10px 0px;
+        font-family: 'Cinzel', serif;
+        font-weight: normal;
+        letter-spacing: 1px;
+        font-size: 20px;
+        text-align: left;
+        margin-left: 30px;
+        color: #f2f2f2;
+    }
+
+    .pol2 p,
+    .pol3 p,
+    .pol4 p,
+    .pol5 p,
+    .pol6 p {
+        background-color: #f2f2f2;
+        color: black;
+        text-align: left;
+        font-family: 'Exo', sans-serif;
+        padding: 40px 50px;
+        font-size: 18px;
+        letter-spacing: 1px;
+        line-height: 28px;
+        font-weight: bold;
+    }
+
+    .pol7 {
+        display: flex;
+        text-align: left;
+        background-color: #181719;
+    }
+
+    .pol7 p {
+        font-size: 20px;
+        letter-spacing: 1px;
+        line-height: 25px;
+        font-weight: bold;
+        color: #f2f2f2;
+        font-family: 'Exo', sans-serif;
+        padding: 100px 60px;
+    }
+
+    /* politica */
+
+}

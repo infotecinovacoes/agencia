@@ -1,0 +1,605 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100&display=swap');
+
+/* font-family: 'Cinzel', serif; */
+/* font-family: 'Exo', sans-serif; */
+
+@media (max-width: 767px) {
+
+    .comeco {
+        display: none;
+    }
+
+    /* comeco */
+    .comeco-cel {
+        background-color: #0C0807;
+    }
+
+    .comeco-cel h1 {
+        color: #f2f2f2;
+        font-family: 'Cinzel', serif;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 30px;
+        letter-spacing: 1px;
+        padding: 50px 20px;
+    }
+
+    /* comeco */
+
+    /* blocopai */
+    /* .blocopai {
+        display: flex;
+    } */
+
+    /* blocopai */
+
+    /* bloco 3 */
+    .bloco3 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .bloco3 h1 {
+        color: white;
+        text-align: center;
+        letter-spacing: 1px;
+        font-family: 'Cinzel', serif;
+        font-size: 18px;
+        padding: 0px 20px;
+        line-height: 23px;
+        font-weight: normal;
+        margin-bottom: 50px;
+    }
+
+    .bloco3a,
+    .bloco3b {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bloco3a {
+        padding-top: 20px;
+        background-color: #0C0807;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .bloco3b {
+        padding-bottom: 50px;
+        background-color: #0C0807;
+    }
+
+    .bloco3 img {
+        width: 80%;
+        border: 1px solid #f2f2f2;
+    }
+
+    .bloco3 p {
+        background-color: #f2f2f2;
+        border: 1px solid #f2f2f2;
+        color: black;
+        font-weight: normal;
+        font-family: 'Exo', sans-serif;
+        line-height: 23px;
+        font-size: 18px;
+        letter-spacing: 1px;
+        text-align: left;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    /* bloco 3 */
+
+    /* bloco 4 */
+    .bloco4 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .bloco4 h1 {
+        color: white;
+        text-align: center;
+        letter-spacing: 1px;
+        font-family: 'Cinzel', serif;
+        font-size: 18px;
+        line-height: 23px;
+        padding: 0px 20px;
+        font-weight: normal;
+        margin-bottom: 50px;
+    }
+
+    .bloco4a,
+    .bloco4b {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bloco4a {
+        padding-top: 20px;
+        background-color: #0C0807;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .bloco4b {
+        padding-bottom: 50px;
+        background-color: #0C0807;
+    }
+
+    .bloco4 img {
+        width: 80%;
+        border: 1px solid #f2f2f2;
+    }
+
+    .bloco4 p {
+        background-color: #f2f2f2;
+        border: 1px solid #f2f2f2;
+        color: black;
+        font-weight: normal;
+        font-family: 'Exo', sans-serif;
+        line-height: 23px;
+        font-size: 18px;
+        letter-spacing: 1px;
+        text-align: left;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    /* bloco 4 */
+
+    /*  bloco icons foto  */
+    .foto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: #0C0807;
+        padding-bottom: 30px;
+    }
+
+    .social-icons1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social-icons1 i {
+        display: inline-flex;
+        color: white;
+        text-decoration: none;
+        width: 35px;
+        height: 35px;
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+        transition: 0.2s;
+        border-radius: 50%;
+    }
+
+    .social-icons1 a {
+        width: 30px;
+        height: 30px;
+        margin: 20px;
+    }
+
+    .whatsapp1 i {
+        border: 2px solid white;
+        color: lime;
+        font-weight: bold;
+        background-color: white;
+    }
+
+    .whatsapp1 i:hover {
+        transition: 0.2s;
+        border: 2px solid lime;
+    }
+
+    .instagram1 i {
+        border: 2px solid white;
+        color: red;
+        font-weight: bold;
+        background-color: white;
+    }
+
+    .instagram1 i:hover {
+        transition: 0.2s;
+        border: 2px solid red;
+    }
+
+    /*  bloco icons foto  */
+
+
+    /* bloco 8 rodape*/
+    .bloco8 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: top;
+        background-color: #0C0807;
+    }
+
+    .bloco8 i {
+        margin-right: 25px;
+    }
+
+    .missao,
+    .visao,
+    .valores {
+        width: 100%;
+        /* height: 420px; */
+        background-color: #f2f2f2;
+        margin: 20px;
+    }
+
+    .bloco8 h1 {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0px;
+        font-family: 'Cinzel', serif;
+        letter-spacing: 2px;
+        font-size: 18px;
+        background-color: #f2f2f2;
+        color: black;
+        border-bottom: 1px solid black;
+    }
+
+    .bloco8 .titulos {
+        display: flex;
+        text-align: center;
+    }
+
+    .titulos h2 {
+        font-weight: normal;
+        font-family: 'Cinzel', serif;
+        letter-spacing: 1px;
+        font-size: 20px;
+        line-height: 25px;
+        padding: 50px 20px 2px 20px;
+        margin-bottom: 70px;
+        color: #f2f2f2;
+        border-bottom: 1px solid #f2f2f2;
+    }
+
+    .bloco8 p {
+        text-align: left;
+        font-family: 'Exo', sans-serif;
+        letter-spacing: 1px;
+        font-size: 18px;
+        line-height: 23px;
+        margin: 0 auto;
+        color: black;
+        font-weight: normal;
+        padding: 30px 20px;
+    }
+
+    /* bloco 8 rodape*/
+
+    /* frase */
+
+    .frase {
+        background-color: #0C0807;
+        text-align: left;
+        padding-bottom: 30px;
+    }
+
+    .frase p {
+        font-family: 'Exo', sans-serif;
+        font-size: 18px;
+        letter-spacing: 2px;
+        color: white;
+        display: flex;
+        margin: 0 auto;
+        width: 80%;
+        padding: 50px 0px;
+        line-height: 23px;
+    }
+
+    /* frase */
+}
+
+@media (min-width: 768px) {
+
+    .comeco-cel {
+        display: none;
+    }
+
+    /* comeco */
+    .comeco {
+        background-color: #0C0807;
+    }
+
+    .comeco h1 {
+        color: #f2f2f2;
+        font-family: 'Cinzel', serif;
+        font-weight: normal;
+        font-size: 35px;
+        letter-spacing: 2px;
+        padding: 80px 20px;
+    }
+
+    /* comeco */
+
+    /* blocopai */
+    .blocopai {
+        display: flex;
+    }
+
+    /* blocopai */
+
+    /* bloco 3 */
+    .bloco3 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .bloco3 h1 {
+        color: white;
+        text-align: center;
+        letter-spacing: 1px;
+        font-family: 'Cinzel', serif;
+        font-size: 18px;
+        font-weight: normal;
+        margin-bottom: 50px;
+    }
+
+    .bloco3a,
+    .bloco3b {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bloco3a {
+        padding-top: 20px;
+        background-color: #0C0807;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .bloco3b {
+        padding-bottom: 50px;
+        background-color: #0C0807;
+    }
+
+    .bloco3 img {
+        width: 55%;
+        border: 1px solid #f2f2f2;
+    }
+
+    .bloco3 p {
+        background-color: #f2f2f2;
+        border: 1px solid #f2f2f2;
+        color: rgba(0, 0, 0, 0.8);
+        font-weight: bold;
+        font-family: 'Exo', sans-serif;
+        line-height: 25px;
+        font-size: 20px;
+        letter-spacing: 1px;
+        width: 85%;
+        text-align: left;
+        margin: 0 auto;
+        padding: 35px 25px;
+    }
+
+    /* bloco 3 */
+
+    /* bloco 4 */
+    .bloco4 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .bloco4 h1 {
+        color: white;
+        text-align: center;
+        letter-spacing: 1px;
+        font-family: 'Cinzel', serif;
+        font-size: 18px;
+        font-weight: normal;
+        margin-bottom: 50px;
+    }
+
+    .bloco4a,
+    .bloco4b {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .bloco4a {
+        padding-top: 20px;
+        background-color: #0C0807;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .bloco4b {
+        padding-bottom: 50px;
+        background-color: #0C0807;
+    }
+
+    .bloco4 img {
+        width: 55%;
+        border: 1px solid #f2f2f2;
+    }
+
+    .bloco4 p {
+        background-color: #f2f2f2;
+        border: 1px solid #f2f2f2;
+        color: rgba(0, 0, 0, 0.8);
+        font-weight: bold;
+        font-family: 'Exo', sans-serif;
+        line-height: 25px;
+        font-size: 20px;
+        letter-spacing: 1px;
+        width: 85%;
+        text-align: left;
+        margin: 0 auto;
+        padding: 35px 25px;
+    }
+
+    /* bloco 4 */
+
+    /*  bloco icons foto  */
+    .foto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: #0C0807;
+        padding-bottom: 50px;
+    }
+
+    .social-icons1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .social-icons1 i {
+        display: inline-flex;
+        color: white;
+        text-decoration: none;
+        width: 45px;
+        height: 45px;
+        font-size: 25px;
+        justify-content: center;
+        align-items: center;
+        transition: 0.2s;
+        border-radius: 50%;
+    }
+
+    .social-icons1 a {
+        width: 40px;
+        height: 40px;
+        margin: 25px;
+    }
+
+    .whatsapp1 i {
+        border: 2px solid white;
+        color: lime;
+        font-weight: bold;
+        background-color: white;
+    }
+
+    .whatsapp1 i:hover {
+        transition: 0.2s;
+        border: 2px solid lime;
+    }
+
+    .instagram1 i {
+        border: 2px solid white;
+        color: red;
+        font-weight: bold;
+        background-color: white;
+    }
+
+    .instagram1 i:hover {
+        transition: 0.2s;
+        border: 2px solid red;
+    }
+
+    /*  bloco icons foto  */
+
+
+    /* bloco 8 rodape*/
+    .bloco8 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: top;
+        padding-bottom: 0px;
+        background-color: #0C0807;
+    }
+
+    .bloco8 i {
+        margin-right: 25px;
+    }
+
+    .missao,
+    .visao,
+    .valores {
+        width: 100%;
+        height: 450px;
+        max-width: 320px;
+        background-color: #f2f2f2;
+        margin: 20px;
+    }
+
+    .bloco8 h1 {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding: 25px 0px;
+        font-family: 'Cinzel', serif;
+        letter-spacing: 2px;
+        font-size: 25px;
+        background-color: #f2f2f2;
+        color: black;
+        border-bottom: 1px solid black;
+    }
+
+    /* .bordered-text2 {
+        display: inline-block;
+        border-bottom: 1px solid #f2f2f2;
+    } */
+
+    .bloco8 .titulos {
+        width: 100%;
+        margin: 100px 20px 50px 20px;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .titulos h2 {
+        font-weight: normal;
+        font-family: 'Cinzel', serif;
+        letter-spacing: 2px;
+        font-size: 30px;
+        padding: 0px 20px;
+        color: #f2f2f2;
+        border-bottom: 1px solid #f2f2f2;
+    }
+
+    .bloco8 p {
+        text-align: left;
+        font-family: 'Exo', sans-serif;
+        letter-spacing: 1px;
+        font-size: 20px;
+        line-height: 25px;
+        margin: 0 auto;
+        padding-top: 40px;
+        color: black;
+        font-weight: bold;
+        width: 80%;
+    }
+
+    /* bloco 8 rodape*/
+
+    /* frase */
+
+    .frase {
+        background-color: #0C0807;
+        text-align: left;
+    }
+
+    .frase p {
+        font-family: 'Exo', sans-serif;
+        font-size: 25px;
+        letter-spacing: 1px;
+        color: white;
+        display: flex;
+        margin: 0 auto;
+        width: 60%;
+        padding: 100px 0px;
+        line-height: 30px;
+    }
+
+    /* frase */
+}
